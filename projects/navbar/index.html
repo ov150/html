@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        * {
+            padding: 0%;
+            margin: 0%;
+            font-family: jetbrains mono;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            /* width: 100vw; */
+            padding: 0px 70px;
+            background-color: black;
+            color: white;
+        }
+        .navbar .side-nav a{
+            color: #a39f9f;
+            text-decoration: none;
+        }
+
+        .navbar-links {
+            list-style-type: none;
+            display: flex;
+        }
+
+        .navbar-links li a {
+            display: block;
+            /* display: flex;
+            flex-direction: column; */
+            text-decoration: none;
+            font-size: 15px;
+            color: #a39f9f;
+            padding: 20px 5px;
+            margin-left: 10px;
+            font-weight: 700;
+            transition: 0.4s ease-in-out;
+        }
+        .navbar-links li a:hover {
+            color: blueviolet;
+        }
+
+        .navbar-links .navbar-dropdown {
+            position: relative;
+        }
+        .navbar-links .navbar-dropdown:hover .dropdown {
+            visibility: visible;
+            width: 250px;
+            line-height: 2px;
+
+        }
+        .navbar-links .navbar-dropdown .dropdown{
+            visibility: hidden;
+            position: absolute;
+            background-color: black;
+            color: white;
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="navbar-links">
+            <li class="navbar-dropdown"><a href="">All categeries </a></li>
+            <li class="navbar-dropdown"><a href="">Hot offers </a></li>
+            <li class="navbar-dropdown"><a href="">Gift boxes</a></li>
+            <li class="navbar-dropdown"><a href="">Products</a></li>
+            <li class="navbar-dropdown"><a href="">Menu items</a></li>
+            <li class="navbar-dropdown">
+                <a href="#">Helps</a>
+                <div class="dropdown">
+                    <a href="#">Tomato Soup</a>
+                    <a href="#">Veg Manchow Soup</a>
+                    <a href="#">Veg Hot Soup</a>
+                </div>
+            </li>
+        </ul>
+        <div class="side-nav">
+            <a href="">India</a>
+            <a href="">USA</a>
+        </div>
+    </nav>
+</body>
+
+</html>

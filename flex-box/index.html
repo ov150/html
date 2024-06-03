@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex -box</title>
+    <style>
+        /* *{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        } */
+        /* body{
+            height: 80vh;
+        } */
+        .container{
+            display: flex;
+            height: 80vh;
+            gap: 1rem;
+        }
+        .container .items{
+            height: 150px;
+            width: 250px;
+            background-color: black;
+            flex-grow: 1;  
+            /*all items equals */
+            flex-shrink: 1;   
+            /* small size the item when required */
+                        
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+    </div>
+</body>
+</html>
