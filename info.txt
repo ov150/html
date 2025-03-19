@@ -1,0 +1,26 @@
+html - tag
+
+img
+br
+hr
+
+
+<html>content </html>
+
+
+navbar -> assignment
+
+attributes
+urls - absolute, relative
+
+semantic tags
+non- semantic tags
+
+//root element of a html page?
+//children elements for root element
+//block elements and inline element as well as difference both of them
+
+assignment -> student markes table with ui
+
+   //table
+   //list
