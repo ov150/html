@@ -13,8 +13,13 @@ navbar -> assignment
 attributes
 urls - absolute, relative
 
-semantic tags
-non- semantic tags
+semantic tags(exp:  p, img, h1, br, hr)
+non- semantic tags(exp: div, span)
+
+//formatting tags  -> b, i, u, 
+
+//alt attribute in image tag
+
 
 //root element of a html page?
 //children elements for root element
@@ -24,3 +29,12 @@ assignment -> student markes table with ui
 
    //table
    //list
+
+
+
+//ways to attach css in html page
+
+
+//add icons and map, favicon 
+//id and class
+//div element
