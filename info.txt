@@ -38,3 +38,11 @@ assignment -> student markes table with ui
 //add icons and map, favicon 
 //id and class
 //div element
+
+//form 
+
+//units -> relative units and absolute units
+//selectors -> 
+
+
+landing page -> nav images and text icons map after that footer
